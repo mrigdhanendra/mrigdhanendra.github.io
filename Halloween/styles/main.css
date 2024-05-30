@@ -1,0 +1,51 @@
+
+header img {
+
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 50px;
+    }
+    
+    header h1 {
+    margin-left: 100px;
+    text-shadow: 2px 2px 2px black;
+    color: orange;
+    font-style: italic;
+    }
+.list {
+    color: orange;
+}
+     a:hover {
+    
+        color:green;
+    }
+
+    /* ul li a:link {
+
+    color: orange;
+    
+} */
+    
+    
+    header h3 {
+    margin-left: 100px;
+    }
+            main p {
+    
+        font-size: 15px;
+           }
+    
+    h2::first-letter {
+    
+    font-size: 55px;
+    
+    }
+    
+    body, h1, h2, h3, h4  {
+      font-family: sans-serif ;
+    }
+
+    footer p{
+        margin-top: 20px;
+    }
