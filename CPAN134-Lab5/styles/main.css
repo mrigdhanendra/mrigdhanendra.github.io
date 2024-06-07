@@ -1,0 +1,136 @@
+
+    
+    
+    
+    html {
+
+    /* background-color: yellow; */
+    background-image: url("../images/bats.gif");
+    /* background-image: "/images/bats.gif"; */
+    background-size: 300px;
+    background-position: center;
+    background-repeat:  repeat;
+    /* background-attachment: fixed; */
+    margin-bottom: 15px;
+    }
+
+    body {
+
+        background-color: white;
+        width: 800px;
+        border: 5px solid black;
+        margin: 0px auto; 
+        box-shadow:2px 16px 8px 8px black;
+        /* padding-top: 10; */
+        /* padding-bottom: 100px; */
+        
+        
+
+    }
+    
+    header {
+        
+        
+        height: 110px;
+        border-bottom: 4px solid black;
+        background-image: linear-gradient(45deg, white, orange, black);
+        
+    }
+    
+    
+    header img {
+        padding-top: 20px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 80px;
+    margin-left: 10px;
+    }
+    
+    header h1 {
+        
+        padding-top: 20px;
+    margin-left: 100px;
+    text-shadow: 2px 2px 2px black;
+    color: black;
+    font-style: italic;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    }
+    /* header h1 { */
+
+        
+        /* margin-block-start: 0em;
+        margin-block-end: 0em; */
+        /* font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal; */
+    
+    
+    /* } */
+
+
+
+    .list {
+    color: orange;
+    }
+
+
+
+     a:hover {
+    
+        color:green;
+    }
+
+    /* ul li a:link {
+
+    color: orange;
+    
+} */
+    
+    
+    header h3 {
+    margin-left: 100px;
+    /* margin-bottom: 200px; */
+    }
+            
+    
+    main p {
+    
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+           }
+    
+
+    h2::first-letter {
+    
+    font-size: 55px;
+    
+    }
+    
+    body, h1, h2, h3, h4  {
+      font-family: sans-serif ;
+      
+    }
+
+    h2, h3, h4{
+        margin-left: 20px;
+    }
+
+   
+
+    footer {
+
+        text-align: center;
+        height: 60px; 
+        border-top: 4px solid black;
+        background-image: linear-gradient(45deg, black, orange, white);
+        /* background-image: linear-gradient(to right, white, yellow, rgb(255, 221, 192), rgba(255, 0, 0, 0.189), black); */
+        
+    }
+
+    footer p{
+        margin-top: 20px;
+    }
+    
