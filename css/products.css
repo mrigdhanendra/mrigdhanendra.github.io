@@ -1,0 +1,24 @@
+html {
+    background-image: url("../images/ajay_pic.jpg");
+    background-size: 100%;
+} 
+body {
+    font-family: sans-serif;
+}
+#ul {
+    margin-left: 400px;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+a:hover , a:focus {
+    color: pink;
+}
+#H {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#L {
+    text-align: center;
+}
+
+
