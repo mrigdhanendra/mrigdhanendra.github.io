@@ -1,32 +1,277 @@
-@font-face {
-    font-family: 'quicksanditalic';
-    src: url('quicksand-italic-webfont.woff2') format('woff2'),
-         url('quicksand-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: beVietnam;
+  src: url(BeVietnamPro-Regular.ttff);
+  
 }
-html {
-    background-image: url("../images/angela_pic.jpg");
-    background-size: 35%;
-    background-repeat: repeat;
+@font-face {
+  font-family: extraBold;
+  src: url(BeVietnamPro-ExtraBold.ttff);
+  
 }
-body {
-    font-family:  'quicksanditalic', helvetica, sans-serif;
-}
-#h {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 500px;
-}
-main {
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: beVietnam;
+    padding: 10px;
+    background: 
+    white;
+    font-size: 20px;
+  }
+
+  #sev{
+    background-color: #d5a03f;
+  }
+
+  #services{
+    color: #d5a03f;
+    font-family: extraBold;
+    font-weight: bold;
+  }
+
+  #home:hover {
+    background-color:  
+    #dfd7cd;
+    color: #1b3956;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
     text-align: center;
-}
-#ul {
-    margin-left: 400px;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-a:hover , a:focus {
-    color: pink;
-}
+    background: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    
+  }
+  h2, h3, p{
+    color: #1b3956;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #1b3956;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+  
+    display: block;
+    color: 
+    #e4e3e1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color:  
+    #dfd7cd;
+    color: #1b3956;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+    
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+    /* color: #d25e18; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: white;
+     /* background-color:  #d5a03f; */
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  /* .fakeimg {
+    background-color: #aaa;
+   
+    width: 100%;
+    padding: 20px;
+  } */
+  
+  /* Add a card effect for articles */
+  .card {
+    /* background-color: white; */
+    background-color:  #d5a03f;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Footer */
+  /* .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  } */
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn, #logo1 {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  /* #logo2 {
+    width: 100px;
+  } */
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a,  #logo1 {
+      float: none;
+      width: 100%;
+
+      
+    }
+  }
+
+  /* #img {
+     padding-top: 20px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  } */
+
+
+  .footer{
+    background-color: #1b3956;
+      padding: 20px 0;
+      /* text-align: center; */
+      margin-top: 20px;
+      
+      /* display: inline; */
+  }
+  .footer-col{
+     width: 50%;
+     padding: 0 15px;
+     margin: 26.6px 20px 35px;
+     
+     
+  }
+  .footer-col h4{
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:1;
+    bottom: -10px;
+    background-color: #d5a03f;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+
+  .footer-col ul li{
+    /* margin-bottom: 10px; */
+    list-style-type:none
+    
+  }
+  .footer-col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  /* .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  } */
+  /* .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+
+  } */
+ 
+  .copy-right-sec{
+    padding: 1.8rem;
+      background: #dfd7cd;
+      color: #1b3956;
+      text-align: center;
+  }
+  .copy-right-sec a{
+    color: #d25e18;
+      font-weight: 500;
+  }
+
+
+
+  

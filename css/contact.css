@@ -23,14 +23,14 @@
 #next {
     
     /* background-color: #d5a03f; */
-    background-color: lightpink;
+    background-color: #d5a03f;
     padding-bottom: 20px;
     
   }
 
   body {
-    border: 3px solid black;
-    box-shadow: 5px 5px 25px black;
+    /* border: 3px solid black; */
+    /* box-shadow: 5px 5px 25px black; */
    
 
 
@@ -43,11 +43,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
   }
 
-#H2 {
+/* #H2 {
     margin-left: 400px;
-}
+} */
 #foot {
     text-align: center;
 }
@@ -179,4 +180,8 @@
   .copy-right-sec a{
     color: #d25e18;
       font-weight: 500;
+  }
+
+  h1, p{
+    color: #1b3956;
   }
